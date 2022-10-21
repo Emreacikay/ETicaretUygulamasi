@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ETicaretAPI.Persistance.Contexts
 {
-    internal class ETicaretAPIDbContext : DbContext
+    public class ETicaretAPIDbContext : DbContext
     {
         public ETicaretAPIDbContext(DbContextOptions options) : base(options)
         { }
